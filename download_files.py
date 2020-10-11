@@ -17,7 +17,7 @@ link = table.find_all("a")
 for links in link:
     try:
         download_url = 'https://www.jpx.co.jp' + links['href']
-        data = download_url.rsplit('/',1)[1]
+        data = download_url.rsplit('/' ,1)[1]
         r = requests.get(download_url, allow_redirects=True)
         with open(data, 'wb') as f:
             f.write(r.content)
