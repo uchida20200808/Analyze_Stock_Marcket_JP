@@ -13,3 +13,7 @@ rf:https://www.tutorialspoint.com/downloading-files-from-web-using-python
 URL:https://web-kanji.com/search/ehime
 
 rf:https://www.tutorialspoint.com/adding-new-column-to-existing-dataframe-in-pandas
+
+3.Get client's name, information from the webpage and save these data as CSV file.
+
+URL:https://crowdworks.jp/public/jobs/skill/21
